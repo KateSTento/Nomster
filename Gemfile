@@ -45,6 +45,9 @@ gem 'simple_form'
 #Use will_paginate
 gem 'will_paginate', '~> 3.1.0'
 
+#Use devise
+gem 'devise', '>= 3.2.4'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
 

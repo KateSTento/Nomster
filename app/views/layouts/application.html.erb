@@ -33,18 +33,17 @@
   </div><!-- /.container-fluid -->
 </nav>
 
-
+ 
 <%= yield %>
 
+<footer class="site-footer">
+  <div class="text-center">
+  <div class="pagination">
+  <%= will_paginate @places %>
+  </div>
+  </div>
+</footer>
 
-<footer>
-        
-<nav>
-  <ul class="pager">
-    <li><a href="#">Previous</a></li>
-    <li><a href="#">Next</a></li>
-  </ul>
-</nav>
-    </footer>
+
 </body>
 </html>

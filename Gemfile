@@ -42,6 +42,9 @@ gem 'sprockets', '2.11.0'
 #Use simpleform
 gem 'simple_form'
 
+#Use will_paginate
+gem 'will_paginate', '~> 3.1.0'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
 

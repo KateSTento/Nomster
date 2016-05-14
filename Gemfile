@@ -48,6 +48,12 @@ gem 'will_paginate', '~> 3.1.0'
 #Use devise
 gem 'devise', '>= 3.2.4'
 
+#Use geocoder
+gem "geocoder"
+
+#Use figaro
+gem "figaro", ">= 1.0.0"
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
 
